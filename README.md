@@ -1,115 +1,53 @@
-# ilovepeace05
 <!doctype html>
 <html lang="ko">
 <head>
-	<title>온라인 프로필</title>
-	<meta charset="utf-8">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    table {
-      width:70%;  /* 표의 너비 */
-      border:1px solid #222; /* 1픽셀짜리 표 테두리 */
-      border-collapse: collapse; /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
-    }
-    thead {
-      background:#eee;  /* 제목 행의 배경 색 */
-    }
-    th, td {
-      border:1px solid #ccc; /* 1픽셀짜리 셀 테두리 */
-      padding:5px;  /* 셀 테두리와 셀 내용 사이의 여백(패딩) */
-      font-size:0.8em;  /* 셀의 글자 크기 */
-    }
-  </style>
+<meta charset="utf-8">
+<title>요안도라</title>
+<link href="css/style3.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 <body>
-    <div id="container">
-        <!-- 사이드바 -->
-        <aside>
-            <div id="namecard">
-                <img src="images/pf.jpg" alt="">
-                <h1>Kangchul Chung</h1>    
-                <p>오늘은 남은 인생이 시작되는 첫째날</p>
-            </div>
-            <div id="detail">
-                <p>youngkwang, Korea</p>
-                <p>kcchung3w@hanmail.net</p>                                 
-            </div>
-            <div id="sns">
-                <h2>SNS</h2>
-                <ul>                    
-					<li>
-						<a href="https://www.facebook.com/funnycom">github</a>
-					</li>
-					<li>
-						<a href="https://www.google.com/search?q">google</a>
-					</li>
-				</ul> 
-            </div>           
-        </aside>
-        <div id="main">
-            <!-- 자기 소개 -->
-            <section>
-                <h2 class="subtitle">Who am I?</h2>
-                <p><mark>나는 수영</mark>에 관심이 많습니다. <br>현재 영광의 한 시골 마을에서 코딩 중입니다.</p>
-            </section>
-
-            <!-- 경력 -->
-            <section>
-                <h2 class="subtitle">Experience</h2>
-                <ul>
-                    <li>BTS
-                        <ul>
-                            <li>멤버들 </li>
-                            <li>아미</li>
-                            <li>공연일정</li> 
-                        </ul>
-                    </li>
-                    <li>미스터 트롯
-                        <ul>
-                            <li>정동원 </li>
-                            <li>김희재</li>
-                        </ul>                        
-                    </li>
-                </ul>             
-            </section>
-
-            <!-- 숙련도 -->
-            <section>
-                <h2 class="subtitle">Skills</h2>
-
-            </section>
-
-            <!-- 학력 -->
-            <section>
-                <h2 class="subtitle">Education</h2>
-                <table>
-                  <caption>좋아하는 과일</caption>
-                  <thead>
-                      <tr>
-                          <th></th>
-                          <th>복숭아</th>
-                          <th>수박</th>
-                          <th>포도</th>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                          <td>출하시기</td>
-                          <td>6월</td>
-                          <td>7월</td>
-                          <td>8월</td>
-                      </tr>
-                      <tr>
-                          <td>색깔</td>
-                          <td> 연핑크 </td>
-                          <td>줄무늬</td>
-                          <td>와인</td>
-                      </tr>
-                  </tbody>
-                </table>
-            </section>
-        </div>        
-    </div>
+<div class="container">
+		<header>
+			  <h1>Joandora</h1>
+				<h2>가장 제주다운 수산리집</h2>
+		</header>  
+    <nav class="navi">
+      <ul>
+        <li><a href="#">이용 안내</a></li>
+        <li><a href="#">객실 소개</a></li>
+        <li><a href="#">예약 방법</a></li>
+        <li><a href="#">예약하기</a></li>
+      </ul>
+    </nav>  
+		<section class="content">
+				<h2>요안도라 소개</h2>    
+				<article>
+						<h3>¤ 요안도라는 게스트 하우스(Guest House) 형식의 농어촌 민박입니다</h3>
+						<p>성산의 날씨는 다음주 내내 높은 구름에 햇살 가득이라고 합니다. 목요일이면 섭씨 27도까지 오른다고 하지만, 늘 부는 바람이 쾌적한 균형을 잡아 마당에 마당에 나가 앉아 있는 시간이 많아질듯 합니다.</p>
+						<p>오늘은 사진에 보이는 긴 돌담을 따라 들어오는 요안도레 올레 입구에 특곤색의 대문을 달았습니다.</p>
+						<p>내일은 두달 여동안 밖거리에 만든 데스트 하우스에 연백색의 황토 페인트를 칠할 예정입니다. <br>
+								그리고 이것저것 사소한 저이를 마치고 나면, 나이 드시고 젊고 한 미지의 새식구들을 설렘으로 만나고 함께하고, 도시의 바븐 생활로 소원해진 오래된 친구와의 우정을 이 제주에서 새롭게 열어나가기 위해 요안도라를 세상에 알리려고 합니다.</p>
+						<div class="banner"><img src="images/banner2.png" width="700" height="233" alt="요안도라"></div>      
+				</article>
+		</section>	
+		<aside class="sidebar">
+				<h3>¤ 알립니다</h3>
+				<p>게스트하우스 예약은 전화 070-###-#### 로 직접 통화하시는게 가장 정확하고 빠릅니다.
+						인터넷 전화이므로 시외 전화 요금이 부과되지 않습니다. </p>
+				<img src="images/2.jpg" alt="">
+				<img src="images/1.jpg" alt="">
+				<img src="images/4.jpg" alt="">    
+		</aside>    
+		<footer>
+				<address>
+						<p>제주특별자치도 남제주군 성산읍 수산리 000 번지 요안도라 </p>
+						<p>yoan##@naver.com</p>
+				</address>				
+				<p> Copyright ⓒ. All rights reserved.</p>      
+		</footer>
+</div>
 </body>
 </html>
